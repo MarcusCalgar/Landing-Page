@@ -74,6 +74,7 @@ h2 {
 
 .cards {
     display: flex;
+    margin: 0 100px;
 }
 
 .card {
@@ -89,4 +90,15 @@ h2 {
 .card img {
     width: 150px;
     height: auto;
+}
+
+.quote {
+    margin: 0 100px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    text-align: right;
+    font-weight: bold;
 }
