@@ -1,0 +1,28 @@
+div {
+    border: 1px solid red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-image img {
+    height: 50px;
+    padding: 0 20px;
+}
+
+.top-image {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
