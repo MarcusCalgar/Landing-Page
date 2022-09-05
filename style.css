@@ -67,5 +67,26 @@ ul {
     width: auto;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
 
+.cards {
+    display: flex;
+}
 
+.card {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
