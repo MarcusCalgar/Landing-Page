@@ -102,3 +102,16 @@ span {
     text-align: right;
     font-weight: bold;
 }
+
+.banner {
+    display: flex;
+    margin: auto 50px;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.sign-up-button {
+    display: block;
+    margin-left: auto;
+    padding: 5px 10px;
+}
