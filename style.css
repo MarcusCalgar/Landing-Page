@@ -5,7 +5,7 @@
 
 
 body {
-    font-family: roboto;
+    font-family: roboto, sans-serif;
 }
 
 .credits {
@@ -14,13 +14,20 @@ body {
 }
 
 .hero, .header {
-    margin: 0 100px;
+    padding: 0 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 5px;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 ul {
@@ -29,6 +36,11 @@ ul {
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hero {
@@ -137,10 +149,7 @@ span {
     color: #e5e7eb;
 }
 
-.header-text {
-    font-size: 24px;
-    color: #f9faf8;
-}
+
 
 button, .banner {
     background-color: #3882f6;
