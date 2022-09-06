@@ -116,7 +116,15 @@ h2 {
 .card {
     flex: 1;
     padding: 10px;
-    text-align: center;
+    text-align: center;  
+    display: flex;
+    flex-direction: column; 
+}
+
+.card-top {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+    height: auto;    
 }
 
 .card h3 {
