@@ -8,16 +8,12 @@ body {
     font-family: roboto;
 }
 
-div {
-   /* border: 1px solid red;*/
-}
-
 .credits {
     margin: 0;
     font-size: smaller;
 }
 
-.pre, .header {
+.hero, .header {
     margin: 0 100px;
 }
 
@@ -25,10 +21,6 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.top-image img {
-    height: 50px;
 }
 
 ul {
@@ -39,7 +31,7 @@ ul {
     gap: 16px;
 }
 
-.pre {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +61,9 @@ ul {
 
 h2 {
     text-align: center;
-    margin-top: 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
 }
 
 .cards {
@@ -94,7 +88,11 @@ h2 {
 
 .quote {
     margin: 0 100px;
-    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
 }
 
 span {
@@ -121,4 +119,29 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f9faf8;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary-text, ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .banner {
+    background-color: #3882f6;
 }
