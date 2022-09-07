@@ -14,7 +14,7 @@ body {
 
 .credits {
     margin: 0;
-    font-size: smaller;
+    font-size: x-small;
 }
 
 .main-image-credits {    
@@ -118,13 +118,17 @@ h2 {
     padding: 10px;
     text-align: center;  
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;    
 }
 
 .card-top {
     border: 5px solid #3882f6;
     border-radius: 8px;
-    height: auto;    
+    height: 160px; /*I don't particularly like that I use fixed height here, but otherwise the card top is all different height because the images have different heights.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card h3 {
@@ -141,7 +145,7 @@ h2 {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: lighter;
     color: #1f2937;
 }
 
